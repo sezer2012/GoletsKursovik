@@ -33,7 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System" />
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
     <Reference Include="System.Configuration" />
     <Reference Include="System.Configuration.ConfigurationManager, Version=9.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Configuration.ConfigurationManager.9.0.1\lib\net462\System.Configuration.ConfigurationManager.dll</HintPath>
@@ -68,6 +70,12 @@
     <Compile Include="Pred.Designer.cs">
       <DependentUpon>Pred.cs</DependentUpon>
     </Compile>
+    <Compile Include="PredSub.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PredSub.Designer.cs">
+      <DependentUpon>PredSub.cs</DependentUpon>
+    </Compile>
     <Compile Include="Price.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -87,6 +95,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Pred.resx">
       <DependentUpon>Pred.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PredSub.resx">
+      <DependentUpon>PredSub.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Price.resx">
       <DependentUpon>Price.cs</DependentUpon>

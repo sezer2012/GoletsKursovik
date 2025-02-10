@@ -91,7 +91,7 @@ namespace GoletsKursovik
 
 
 
-            string connectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:/Users/ilias/Source/Repos/sezer2012/GoletsKursovik/GoletsKursovik/Database.accdb;";
+            string connectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:/Users/User/Source/Repos/sezer2012/GoletsKursovik/GoletsKursovik/Database.accdb;";
 
             using (OleDbConnection conn = new OleDbConnection(connectionString))
             {
@@ -136,7 +136,7 @@ namespace GoletsKursovik
                     string адрес = form.textBox2.Text;
                     string телефон = form.textBox3.Text;
                     string ФИО_директора = form.textBox4.Text;
-                    string connectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:/Users/ilias/Source/Repos/sezer2012/GoletsKursovik/GoletsKursovik/Database.accdb;";
+                    string connectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:/Users/User/Source/Repos/sezer2012/GoletsKursovik/GoletsKursovik/Database.accdb;";
                     using (OleDbConnection conn = new OleDbConnection(connectionString))
                     {
                         try
@@ -182,7 +182,7 @@ namespace GoletsKursovik
                     try
                     {
 
-                        string connectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:/Users/ilias/Source/Repos/sezer2012/GoletsKursovik/GoletsKursovik/Database.accdb;";
+                        string connectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:/Users/User/Source/Repos/sezer2012/GoletsKursovik/GoletsKursovik/Database.accdb;";
                         using (OleDbConnection conn = new OleDbConnection(connectionString))
                         {
                             conn.Open();
@@ -228,7 +228,7 @@ namespace GoletsKursovik
                     string телефон = dataGridView1.CurrentRow.Cells[3].Value.ToString(); ; // стоимость - четвертый столбец
                     string ФИО_директора = dataGridView1.CurrentRow.Cells[4].Value.ToString(); // тип_тура - пятый столбец
 
-                    string connectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:/Users/ilias/Source/Repos/sezer2012/GoletsKursovik/GoletsKursovik/Database.accdb;";
+                    string connectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:/Users/User/Source/Repos/sezer2012/GoletsKursovik/GoletsKursovik/Database.accdb;";
                     using (OleDbConnection conn = new OleDbConnection(connectionString))
 
                     using (PredSub form = new PredSub())
